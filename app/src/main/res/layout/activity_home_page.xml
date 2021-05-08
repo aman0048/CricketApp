@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/team_a"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        >
+
+        <TextView
+            android:id="@+id/TeamATotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total :  0  "
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="      /      "
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/teamAWicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 0 "
+            android:textColor="@color/white"
+            android:textSize="28sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="29dp"
+        android:layout_marginTop="8dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aman"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/playerScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="              0  "
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getSix"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/_6"/>
+
+    <Button
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getFour"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/_4" />
+
+    <Button
+        android:id="@+id/wide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getWide"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/wide"/>
+
+    <Button
+        android:id="@+id/noBall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getNoBall"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/noball" />
+
+    <Button
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getOne"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/_1">
+
+    </Button>
+
+    <Button
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getTwo"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/_2"/>
+
+    <Button
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getThree"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/_3" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="getOut"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/out"/>
+
+
+</LinearLayout>

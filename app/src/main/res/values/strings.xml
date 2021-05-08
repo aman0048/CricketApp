@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CricketApp</string>
+    <string name="powered_by">Powered By</string>
+    <string name="techno_craft">TechnoCraft</string>
+    <string name="out">Out</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="noball">Noball</string>
+    <string name="wide">wide</string>
+    <string name="_4">4</string>
+    <string name="_6">6</string>
+    <string name="aman">Aman:    </string>
+    <string name="team_a">Team A</string>
+
+
+</resources>

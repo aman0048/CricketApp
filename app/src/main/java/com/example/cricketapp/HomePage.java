@@ -15,6 +15,7 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
     }
 
+
     int playerScore = 0;
     int total  = 0;
     int out = 0;
@@ -61,17 +62,17 @@ public class HomePage extends AppCompatActivity {
 
 
     public void displayOutcome (int score){
-        TextView scoreView = (TextView) findViewById(R.id.TeamATotal);
+        TextView scoreView = findViewById(R.id.TeamATotal);
         scoreView.setText(String.valueOf(score));
     }
 
     public void displayPlayerScore (int score){
-        TextView scoreView = (TextView) findViewById(R.id.playerScore);
+        TextView scoreView = findViewById(R.id.playerScore);
         scoreView.setText(String.valueOf(score));
     }
 
     public void displayForOut (int score){
-        TextView wicketView = (TextView) findViewById(R.id.teamAWicket);
+        TextView wicketView = findViewById(R.id.teamAWicket);
         wicketView.setText(String.valueOf(score));
     }
 

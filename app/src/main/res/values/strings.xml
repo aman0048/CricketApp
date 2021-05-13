@@ -12,6 +12,10 @@
     <string name="_6">6</string>
     <string name="aman">Aman:    </string>
     <string name="team_a">Team A</string>
+    <string name="name_of_the_players">Name of the players</string>
+    <string name="number_of_players">number of players</string>
+    <string name="team_name">Team name</string>
+    <string name="submit">Submit</string>
 
 
 </resources>
